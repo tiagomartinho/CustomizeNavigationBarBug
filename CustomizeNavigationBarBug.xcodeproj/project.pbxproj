@@ -54,14 +54,22 @@
 		EA1ACB3E233B84C9009B26B7 /* CustomizeNavigationBarBug */ = {
 			isa = PBXGroup;
 			children = (
-				EA1ACB3F233B84C9009B26B7 /* AppDelegate.swift */,
 				EA1ACB41233B84C9009B26B7 /* ViewController.swift */,
 				EA1ACB43233B84C9009B26B7 /* Main.storyboard */,
+				EA1ACB51233B85A5009B26B7 /* Supporting Files */,
+			);
+			path = CustomizeNavigationBarBug;
+			sourceTree = "<group>";
+		};
+		EA1ACB51233B85A5009B26B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1ACB3F233B84C9009B26B7 /* AppDelegate.swift */,
 				EA1ACB46233B84CB009B26B7 /* Assets.xcassets */,
 				EA1ACB48233B84CB009B26B7 /* LaunchScreen.storyboard */,
 				EA1ACB4B233B84CB009B26B7 /* Info.plist */,
 			);
-			path = CustomizeNavigationBarBug;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomizeNavigationBarBug/Info.plist;
+				INFOPLIST_FILE = "CustomizeNavigationBarBug/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomizeNavigationBarBug/Info.plist;
+				INFOPLIST_FILE = "CustomizeNavigationBarBug/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
