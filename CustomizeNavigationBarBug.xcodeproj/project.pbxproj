@@ -56,6 +56,7 @@
 			children = (
 				EA1ACB41233B84C9009B26B7 /* ViewController.swift */,
 				EA1ACB43233B84C9009B26B7 /* Main.storyboard */,
+				EA1ACB3F233B84C9009B26B7 /* AppDelegate.swift */,
 				EA1ACB51233B85A5009B26B7 /* Supporting Files */,
 			);
 			path = CustomizeNavigationBarBug;
@@ -64,7 +65,6 @@
 		EA1ACB51233B85A5009B26B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA1ACB3F233B84C9009B26B7 /* AppDelegate.swift */,
 				EA1ACB46233B84CB009B26B7 /* Assets.xcassets */,
 				EA1ACB48233B84CB009B26B7 /* LaunchScreen.storyboard */,
 				EA1ACB4B233B84CB009B26B7 /* Info.plist */,
